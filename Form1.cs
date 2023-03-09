@@ -1,10 +1,10 @@
 using System.Windows.Forms;
 
-namespace WinFormsApp4
+namespace ImageGetter
 {
-    public partial class Form1 : Form
+    public partial class ImageGetter : Form
     {
-        public Form1()
+        public ImageGetter()
         {
             InitializeComponent();
         }

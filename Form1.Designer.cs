@@ -1,6 +1,6 @@
-﻿namespace WinFormsApp4
+﻿namespace ImageGetter
 {
-    partial class Form1
+    partial class ImageGetter
     {
         /// <summary>
         ///  Required designer variable.
@@ -56,15 +56,15 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // Form1
+            // ImageGetter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "ImageGetter";
+            this.Text = "Image Getter";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
